@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+
+
+	<div class="top1">
+
+      <h1 >Professional Programs  With C programming</h1>
+	</div>
+
+
+
+
+
+<ul>
+  <li><a href="front.html">HOME</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">STRING</a>
+    <div class="dropdown-content">
+      <a href="s1.html">Question-1</a>
+      <a href="s2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ARRAY</a>
+    <div class="dropdown-content">
+      <a href="a1.html">Question-1</a>
+      <a href="a2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">POINTERS</a>
+    <div class="dropdown-content">
+      <a href="p1.html">Question-1</a>
+      <a href="p2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Suprise Me</a>
+    <div class="dropdown-content">
+      <a href="basic-1.html">--> 1</a>
+      <a href="basic-2.html">--> 2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="aboutus.html" class="dropbtn">ABOUT US</a>
+	</li>
+</ul>
+
+
+
+
+
+
+<h3 class="que">Question</h3>
+<br>
+<h4 class="que1">C program to print your name 10 times without using any loop or goto statement</h4>
+
+
+
+<h3 class="que">Code:</h3>
+
+<div class="code">
+  <pre>
+            program to print your name 10 times without 
+            using any loop or goto statement*/
+             
+            #include <stdio.h>
+            void printName(char* name,int count) 
+            { 
+                printf("%03d : %s\n",count+1,name); 
+                count+=1; 
+                if(count<10) 
+                    printName(name,count); 
+            } 
+            int main() 
+            { 
+                char name[50];  
+                printf("\nEnter you name :"); 
+                scanf("%s",name); 
+                printName(name,0); 
+                return 0; 
+              </pre>
+
+</div>
+
+
+
+<h3 class="que">Output:</h3>
+<br>
+<div class="output">
+  <pre>
+        
+          Enter you name :C-Language 
+          001 : C-Language 
+          002 : C-Language 
+          003 : C-Language 
+          004 : C-Language 
+          005 : C-Language 
+          006 : C-Language 
+          007 : C-Language 
+          008 : C-Language 
+          009 : C-Language 
+          010 : C-Language
+               
+            }
+          </pre>
+</div> 
+
+ </body>
+</html>           

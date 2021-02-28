@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+
+
+	<div class="top1">
+
+      <h1 >Professional Programs  With C programming</h1>
+	</div>
+
+
+
+
+
+<ul>
+  <li><a href="front.html">HOME</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">STRING</a>
+    <div class="dropdown-content">
+      <a href="s1.html">Question-1</a>
+      <a href="s2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ARRAY</a>
+    <div class="dropdown-content">
+      <a href="a1.html">Question-1</a>
+      <a href="a2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">POINTERS</a>
+    <div class="dropdown-content">
+      <a href="p1.html">Question-1</a>
+      <a href="p2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Suprise Me</a>
+    <div class="dropdown-content">
+      <a href="basic-1.html">--> 1</a>
+      <a href="basic-2.html">--> 2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="aboutus.html" class="dropbtn">ABOUT US</a>
+	</li>
+</ul>
+
+
+
+
+
+
+<h3 class="que">Question</h3>
+<br>
+<h4 class="que1">C programm Example of Pointer demonstrating the use of & and *
+
+
+
+<h3 class="que">Code:</h3>
+
+<div class="code">
+  <pre>
+            #include <stdio.h>
+int main()
+{
+   /* Pointer of integer type, this can hold the
+    * address of a integer type variable.
+    */
+   int *p;
+
+   int var = 10;
+
+   /* Assigning the address of variable var to the pointer
+    * p. The p can hold the address of var because var is
+    * an integer type variable.
+    */
+   p= &var;
+
+   printf("Value of variable var is: %d", var);
+   printf("\nValue of variable var is: %d", *p);
+   printf("\nAddress of variable var is: %p", &var);
+   printf("\nAddress of variable var is: %p", p);
+   printf("\nAddress of pointer p is: %p", &p);
+   return 0;
+}
+              </pre>
+
+</div>
+
+
+
+<h3 class="que">Output:</h3>
+<br>
+<div class="output">
+  <pre>
+        
+Value of variable var is: 10
+Value of variable var is: 10
+Address of variable var is: 0x7fff5ed98c4c
+Address of variable var is: 0x7fff5ed98c4c
+Address of pointer p is: 0x7fff5ed98c50
+               
+            }
+          </pre>
+</div> 
+
+ </body>
+</html>           

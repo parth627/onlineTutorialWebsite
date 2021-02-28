@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+
+
+	<div class="top1">
+
+      <h1 >Professional Programs  With C programming</h1>
+	</div>
+
+
+
+
+
+<ul>
+  <li><a href="front.html">HOME</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">STRING</a>
+    <div class="dropdown-content">
+      <a href="s1.html">Question-1</a>
+      <a href="s2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ARRAY</a>
+    <div class="dropdown-content">
+      <a href="a1.html">Question-1</a>
+      <a href="a2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">POINTERS</a>
+    <div class="dropdown-content">
+      <a href="p1.html">Question-1</a>
+      <a href="p2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Suprise Me</a>
+    <div class="dropdown-content">
+      <a href="basic-1.html">--> 1</a>
+      <a href="basic-2.html">--> 2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="aboutus.html" class="dropbtn">ABOUT US</a>
+	</li>
+</ul>
+
+
+
+
+
+
+<h3 class="que">Question</h3>
+<br>
+<h4 class="que1">C programming to find out the average of 4 integers using array</h4>
+
+
+
+<h3 class="que">Code:</h3>
+
+<div class="code">
+  <pre>
+            program to print find out the average of 4 integers using array*/
+             
+            #include <stdio.h>
+int main()
+{
+    int avg = 0;
+    int sum =0;
+    int x=0;
+
+    /* Array- declaration – length 4*/
+    int num[4];
+
+    /* We are using a for loop to traverse through the array
+     * while storing the entered values in the array
+     */
+    for (x=0; x<4;x++)
+    {
+        printf("Enter number %d \n", (x+1));
+        scanf("%d", &num[x]);
+    }
+    for (x=0; x<4;x++)
+    {
+        sum = sum+num[x];
+    }
+
+    avg = sum/4;
+    printf("Average of entered number is: %d", avg);
+    return 0;
+}
+              </pre>
+
+</div>
+
+
+
+<h3 class="que">Output:</h3>
+<br>
+<div class="output">
+  <pre>
+        
+          Enter number 1 
+          10
+          Enter number 2 
+          10
+          Enter number 3 
+          20
+          Enter number 4 
+          40
+          Average of entered number is: 20
+               
+            }
+          </pre>
+</div> 
+
+ </body>
+</html>           

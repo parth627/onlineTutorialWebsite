@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+
+
+	<div class="top1">
+
+      <h1 >Professional Programs  With C programming</h1>
+	</div>
+
+
+
+
+
+<ul>
+  <li><a href="front.html">HOME</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">STRING</a>
+    <div class="dropdown-content">
+      <a href="s1.html">Question-1</a>
+      <a href="s2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ARRAY</a>
+    <div class="dropdown-content">
+      <a href="a1.html">Question-1</a>
+      <a href="a2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">POINTERS</a>
+    <div class="dropdown-content">
+      <a href="p1.html">Question-1</a>
+      <a href="p2.html">Question-2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Suprise Me</a>
+    <div class="dropdown-content">
+      <a href="basic-1.html">--> 1</a>
+      <a href="basic-2.html">--> 2</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="aboutus.html" class="dropbtn">ABOUT US</a>
+	</li>
+</ul>
+
+
+
+
+
+
+<h3 class="que">Question</h3>
+<br>
+<h4 class="que1">C programm Example Example of double Pointer
+
+
+
+<h3 class="que">Code:</h3>
+
+<div class="code">
+  <pre>
+            #include <stdio.h>
+int main()
+{
+     int num=123;
+
+     //A normal pointer pr2
+     int *pr2;
+
+     //This pointer pr2 is a double pointer
+     int **pr1;
+
+     /* Assigning the address of variable num to the
+      * pointer pr2
+      */
+     pr2 = #
+
+     /* Assigning the address of pointer pr2 to the
+      * pointer-to-pointer pr1
+      */
+     pr1 = &pr2;
+
+     /* Possible ways to find value of variable num*/
+     printf("\n Value of num is: %d", num);
+     printf("\n Value of num using pr2 is: %d", *pr2);
+     printf("\n Value of num using pr1 is: %d", **pr1);
+
+     /*Possible ways to find address of num*/
+     printf("\n Address of num is: %p", &num);
+     printf("\n Address of num using pr2 is: %p", pr2);
+     printf("\n Address of num using pr1 is: %p", *pr1);
+
+     /*Find value of pointer*/
+     printf("\n Value of Pointer pr2 is: %p", pr2);
+     printf("\n Value of Pointer pr2 using pr1 is: %p", *pr1);
+
+     /*Ways to find address of pointer*/
+     printf("\n Address of Pointer pr2 is:%p",&pr2);
+     printf("\n Address of Pointer pr2 using pr1 is:%p",pr1);
+
+     /*Double pointer value and address*/
+     printf("\n Value of Pointer pr1 is:%p",pr1);
+     printf("\n Address of Pointer pr1 is:%p",&pr1);
+
+     return 0;
+}
+              </pre>
+
+</div>
+
+
+
+<h3 class="que">Output:</h3>
+<br>
+<div class="output">
+  <pre>
+        
+Value of num is: 123
+Value of num using pr2 is: 123
+Value of num using pr1 is: 123
+Address of num is: XX771230
+Address of num using pr2 is: XX771230
+Address of num using pr1 is: XX771230
+Value of Pointer pr2 is: XX771230
+Value of Pointer pr2 using pr1 is: XX771230
+Address of Pointer pr2 is: 66X123X1
+Address of Pointer pr2 using pr1 is: 66X123X1
+Value of Pointer pr1 is:  66X123X1
+Address of Pointer pr1 is: XX661111
+               
+            }
+          </pre>
+</div> 
+
+ </body>
+</html>           
